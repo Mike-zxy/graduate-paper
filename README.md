@@ -16,7 +16,7 @@ LATTE 的核心工作流包含：前置函数信息提取 -> LLM 智能识别 So
   ```bash
   pip install openai requests httpx python-dotenv
 
-```
+
 
 ## 🚀 核心工作流程与使用指南
 
@@ -39,7 +39,7 @@ LATTE 的分析流程分为以下四个阶段：
 ```bash
 python3 ask_source_dest.py
 
-```
+
 
 
 
