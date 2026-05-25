@@ -12,9 +12,6 @@ LATTE 的核心工作流包含：前置函数信息提取 -> LLM 智能识别 So
 * **反编译引擎**: [Ghidra](https://ghidra-sre.org/) (LATTE 核心脚本 `latte.py` 作为 Ghidra 插件运行)
 * **Python**: Python 3.8+ 
 * **LLM 接口**: OpenAI API (或兼容的代理接口，如 DeepSeek 等)
-* **关键 Python 库**: 
-  ```bash
-  pip install openai requests httpx python-dotenv
 
 
 
@@ -35,11 +32,6 @@ LATTE 的分析流程分为以下四个阶段：
 运行 `ask_source_dest.py` 脚本。
 
 * **功能**: 将第一步提取的候选函数列表喂给大语言模型（如 GPT/DeepSeek），让 LLM 根据语义自动研判并输出可能作为污染源 (Taint Source) 和 危险汇聚点 (Taint Sink) 的目标。
-* **命令**:
-```bash
-python3 ask_source_dest.py
-
-
 
 
 
@@ -54,11 +46,7 @@ python3 ask_source_dest.py
 运行 `vulchat.py` 脚本。
 
 * **功能**: 针对第三步提取出的危险数据流上下文，与大语言模型进行多轮对话。LLM 会结合数据流的传播路径、过滤机制等，最终判定该数据流是否构成真实的漏洞（如输出 "Vulnerable" 或 "Safe"）。
-* **命令**:
-```bash
-python3 vulchat.py
 
-```
 
 
 
