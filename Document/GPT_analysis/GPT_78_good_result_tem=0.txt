@@ -1,0 +1,20 @@
+--- 分析报告 (Good/Safe 集) ---
+总扫描文件数: 180
+模型判定为漏洞(Vulnerable)数量: 8
+模型判定为安全(Safe)数量: 0
+
+--- 混淆矩阵 (Metrics) ---
+TP (真阳性 - 正确测出的漏洞): 0
+FN (假阴性 - 漏报的漏洞): 0
+TN (真阴性 - 正确确认的安全): 172
+FP (假阳性 - 误报的安全): 8
+
+--- 判定为 Vulnerable 的文件列表 ---
+CWE78_OS_Command_Injection__char_console_execl_74-output.json
+CWE78_OS_Command_Injection__char_console_system_74-output.json
+CWE78_OS_Command_Injection__char_environment_execl_74-output.json
+CWE78_OS_Command_Injection__char_environment_popen_74-output.json
+CWE78_OS_Command_Injection__char_environment_execlp_74-output.json
+CWE78_OS_Command_Injection__char_console_execlp_74-output.json
+CWE78_OS_Command_Injection__char_console_popen_74-output.json
+CWE78_OS_Command_Injection__char_environment_system_74-output.json

@@ -1,0 +1,210 @@
+[2026-05-24 21:27:51,331][INFO    ][latte.main] Decompilation start: 2026-05-24 21:27:51.327000
+[2026-05-24 21:27:51,380][INFO    ][latte.main] Tracing start: 2026-05-24 21:27:51.379000
+[2026-05-24 21:27:51,385][DEBUG   ][latte._ReturnVal__find_return_val_varnode] Couldn't find better ReturnVal for Func in 0x001012d0 wprintf()
+[2026-05-24 21:27:51,385][DEBUG   ][latte._find_sym_trace_def] Found by symbol name iVar1 at iteration 1
+[2026-05-24 21:27:51,387][DEBUG   ][latte.get_instances_by_name] Found Func wprintf @ 0x001012d0
+[2026-05-24 21:27:51,391][DEBUG   ][latte.get_instances_by_name] Found Func wprintf @ 0x00105098
+[2026-05-24 21:27:51,395][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,395][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,397][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,397][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 1
+[2026-05-24 21:27:51,403][DEBUG   ][latte.get_instances_by_name] Found Func __isoc99_sscanf @ 0x001012e0
+[2026-05-24 21:27:51,404][DEBUG   ][latte.get_instances_by_name] Found Func __isoc99_sscanf @ 0x001050a0
+[2026-05-24 21:27:51,408][DEBUG   ][latte._ReturnVal__find_return_val_varnode] Couldn't find better ReturnVal for Func in 0x001012c0 malloc()
+[2026-05-24 21:27:51,408][DEBUG   ][latte._find_sym_trace_def] Found by symbol name pvVar1 at iteration 1
+[2026-05-24 21:27:51,410][DEBUG   ][latte.get_instances_by_name] Found Func malloc @ 0x001012c0
+[2026-05-24 21:27:51,413][DEBUG   ][latte.get_instances_by_name] Found Func malloc @ 0x00105090
+[2026-05-24 21:27:51,423][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,424][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,424][DEBUG   ][latte._find_sym_trace_descend] Iteration 1 going into getLoneDescend
+[2026-05-24 21:27:51,424][DEBUG   ][latte._find_sym_trace_descend] Found by symbol name local_18 at iteration 2
+[2026-05-24 21:27:51,428][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,430][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,430][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,430][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,430][DEBUG   ][latte._find_sym_trace_descend] Iteration 1 going into getLoneDescend
+[2026-05-24 21:27:51,430][DEBUG   ][latte._find_sym_trace_descend] Found by symbol name __mutex at iteration 2
+[2026-05-24 21:27:51,434][DEBUG   ][latte.get_instances_by_name] Found Func __isoc99_swscanf @ 0x00101280
+[2026-05-24 21:27:51,437][DEBUG   ][latte.get_instances_by_name] Found Func __isoc99_swscanf @ 0x00105068
+[2026-05-24 21:27:51,440][DEBUG   ][latte._ReturnVal__find_return_val_varnode] Couldn't find better ReturnVal for Func in 0x001011f0 puts()
+[2026-05-24 21:27:51,440][DEBUG   ][latte._find_sym_trace_def] Found by symbol name iVar1 at iteration 1
+[2026-05-24 21:27:51,440][DEBUG   ][latte.get_instances_by_name] Found Func puts @ 0x001011f0
+[2026-05-24 21:27:51,441][DEBUG   ][latte.get_instances_by_name] Found Func puts @ 0x00105018
+[2026-05-24 21:27:51,446][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 1
+[2026-05-24 21:27:51,450][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,451][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,451][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,457][DEBUG   ][latte._ReturnVal__find_return_val_varnode] Couldn't find better ReturnVal for Func in 0x00101270 fgets()
+[2026-05-24 21:27:51,459][DEBUG   ][latte._find_sym_trace_def] Found by symbol name pcVar1 at iteration 1
+[2026-05-24 21:27:51,459][DEBUG   ][latte.get_instances_by_name] Found Func fgets @ 0x00101270
+[2026-05-24 21:27:51,461][DEBUG   ][latte.get_instances_by_name] Found Func fgets @ 0x00105060
+[2026-05-24 21:27:51,476][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,476][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,476][DEBUG   ][latte._find_sym_trace_def] Iteration 3 going into getDef
+[2026-05-24 21:27:51,476][DEBUG   ][latte._find_sym_trace_def] Found by symbol name sVar1 at iteration 4
+[2026-05-24 21:27:51,477][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,477][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,477][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,477][DEBUG   ][latte._find_sym_trace_def] Iteration 3 going into getDef
+[2026-05-24 21:27:51,479][DEBUG   ][latte._find_sym_trace_def] Found by symbol name sVar1 at iteration 4
+[2026-05-24 21:27:51,479][DEBUG   ][latte._find_sym_trace_def] Found by symbol name __stream at iteration 1
+[2026-05-24 21:27:51,480][DEBUG   ][latte._find_sym_trace_descend] Found by symbol name pcVar2 at iteration 1
+[2026-05-24 21:27:51,484][DEBUG   ][latte.get_instances_by_name] Found Func printLine @ 0x00101626
+[2026-05-24 21:27:51,486][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,486][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,486][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,493][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,493][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,493][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,494][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,494][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,494][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,496][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,496][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,500][DEBUG   ][latte._ReturnVal__find_return_val_varnode] Couldn't find better ReturnVal for Func in 0x00101240 printf()
+[2026-05-24 21:27:51,500][DEBUG   ][latte._find_sym_trace_def] Found by symbol name iVar1 at iteration 1
+[2026-05-24 21:27:51,502][DEBUG   ][latte.get_instances_by_name] Found Func printf @ 0x00101240
+[2026-05-24 21:27:51,503][DEBUG   ][latte.get_instances_by_name] Found Func printf @ 0x00105040
+[2026-05-24 21:27:51,507][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,509][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,509][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,509][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,509][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 2
+[2026-05-24 21:27:51,513][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,513][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,513][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,515][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,515][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,516][DEBUG   ][latte._find_sym_trace_def] Iteration 3 going into getDef
+[2026-05-24 21:27:51,516][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 4
+[2026-05-24 21:27:51,519][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,519][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,519][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,519][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,520][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 2
+[2026-05-24 21:27:51,523][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,523][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,525][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,525][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 1
+[2026-05-24 21:27:51,528][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,529][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,529][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,529][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 1
+[2026-05-24 21:27:51,532][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,532][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,533][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,533][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 1
+[2026-05-24 21:27:51,538][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,538][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,538][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,539][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,539][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,539][DEBUG   ][latte._find_sym_trace_def] Iteration 3 going into getDef
+[2026-05-24 21:27:51,539][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 4
+[2026-05-24 21:27:51,543][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,543][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,543][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,543][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,545][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,545][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,546][DEBUG   ][latte._find_sym_trace_def] Found by symbol name local_18 at iteration 3
+[2026-05-24 21:27:51,548][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,549][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,549][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,549][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,549][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 2
+[2026-05-24 21:27:51,552][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,552][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,552][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,553][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,553][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 2
+[2026-05-24 21:27:51,555][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,556][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,556][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,556][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 1
+[2026-05-24 21:27:51,559][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,559][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,559][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,561][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,561][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,561][DEBUG   ][latte._find_sym_trace_def] Iteration 3 going into getDef
+[2026-05-24 21:27:51,561][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,562][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 4
+[2026-05-24 21:27:51,562][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,562][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,562][DEBUG   ][latte._find_sym_trace_def] Iteration 3 going into getDef
+[2026-05-24 21:27:51,562][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,562][DEBUG   ][latte._find_sym_trace_def] Iteration 4 going into getDef
+[2026-05-24 21:27:51,562][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 5
+[2026-05-24 21:27:51,562][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,563][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,563][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,563][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,563][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,565][DEBUG   ][latte._find_sym_trace_def] Iteration 3 going into getDef
+[2026-05-24 21:27:51,565][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,565][DEBUG   ][latte._find_sym_trace_def] Iteration 4 going into getDef
+[2026-05-24 21:27:51,565][DEBUG   ][latte._find_sym_trace_def] Iteration 5 going into getDef
+[2026-05-24 21:27:51,565][DEBUG   ][latte._find_sym_trace_def] Found by symbol name local_10 at iteration 6
+[2026-05-24 21:27:51,572][DEBUG   ][latte._ReturnVal__find_return_val_varnode] Couldn't find better ReturnVal for Func in 0x00101310 execlp()
+[2026-05-24 21:27:51,572][DEBUG   ][latte._find_sym_trace_def] Found by symbol name iVar1 at iteration 1
+[2026-05-24 21:27:51,572][DEBUG   ][latte.get_instances_by_name] Found Func execlp @ 0x00101310
+[2026-05-24 21:27:51,573][DEBUG   ][latte.get_instances_by_name] Found Func execlp @ 0x001050c0
+[2026-05-24 21:27:51,578][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,578][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,578][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,578][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,578][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,578][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,578][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,579][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,579][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,579][DEBUG   ][latte._find_sym_trace_def] Found by symbol name DAT_00102004 at iteration 3
+[2026-05-24 21:27:51,581][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_1 at iteration 1
+[2026-05-24 21:27:51,581][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,581][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,585][DEBUG   ][latte.get_instances_by_name] Found Func fgets @ 0x00101270
+[2026-05-24 21:27:51,585][DEBUG   ][latte.get_instances_by_name] Found Func fgets @ 0x00105060
+[2026-05-24 21:27:51,591][DEBUG   ][latte.get_instances_by_name] Found Func __isoc99_sscanf @ 0x001012e0
+[2026-05-24 21:27:51,591][DEBUG   ][latte.get_instances_by_name] Found Func __isoc99_sscanf @ 0x001050a0
+[2026-05-24 21:27:51,601][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,601][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,601][DEBUG   ][latte._find_sym_trace_def] Found by symbol name param_3 at iteration 3
+[2026-05-24 21:27:51,601][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,602][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,602][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,602][DEBUG   ][latte._find_sym_trace_def] Found by symbol name DAT_00102094 at iteration 3
+[2026-05-24 21:27:51,602][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,604][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,604][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,604][DEBUG   ][latte._find_sym_trace_def] Found by symbol name local_1c at iteration 3
+[2026-05-24 21:27:51,608][DEBUG   ][latte.get_instances_by_name] Found Func fgets @ 0x00101270
+[2026-05-24 21:27:51,608][DEBUG   ][latte.get_instances_by_name] Found Func fgets @ 0x00105060
+[2026-05-24 21:27:51,611][DEBUG   ][latte.get_instances_by_name] Found Func __isoc99_sscanf @ 0x001012e0
+[2026-05-24 21:27:51,612][DEBUG   ][latte.get_instances_by_name] Found Func __isoc99_sscanf @ 0x001050a0
+[2026-05-24 21:27:51,614][DEBUG   ][latte.get_instances_by_name] Found Func wprintf @ 0x001012d0
+[2026-05-24 21:27:51,615][DEBUG   ][latte.get_instances_by_name] Found Func wprintf @ 0x00105098
+[2026-05-24 21:27:51,618][DEBUG   ][latte.get_instances_by_name] Found Func __isoc99_sscanf @ 0x001012e0
+[2026-05-24 21:27:51,618][DEBUG   ][latte.get_instances_by_name] Found Func __isoc99_sscanf @ 0x001050a0
+[2026-05-24 21:27:51,621][DEBUG   ][latte.get_instances_by_name] Found Func malloc @ 0x001012c0
+[2026-05-24 21:27:51,621][DEBUG   ][latte.get_instances_by_name] Found Func malloc @ 0x00105090
+[2026-05-24 21:27:51,624][DEBUG   ][latte.get_instances_by_name] Found Func __isoc99_swscanf @ 0x00101280
+[2026-05-24 21:27:51,625][DEBUG   ][latte.get_instances_by_name] Found Func __isoc99_swscanf @ 0x00105068
+[2026-05-24 21:27:51,625][DEBUG   ][latte.get_instances_by_name] Found Func puts @ 0x001011f0
+[2026-05-24 21:27:51,627][DEBUG   ][latte.get_instances_by_name] Found Func puts @ 0x00105018
+[2026-05-24 21:27:51,631][DEBUG   ][latte.get_instances_by_name] Found Func fgets @ 0x00101270
+[2026-05-24 21:27:51,631][DEBUG   ][latte.get_instances_by_name] Found Func fgets @ 0x00105060
+[2026-05-24 21:27:51,637][DEBUG   ][latte.get_instances_by_name] Found Func printLine @ 0x00101626
+[2026-05-24 21:27:51,641][DEBUG   ][latte.get_instances_by_name] Found Func printf @ 0x00101240
+[2026-05-24 21:27:51,641][DEBUG   ][latte.get_instances_by_name] Found Func printf @ 0x00105040
+[2026-05-24 21:27:51,654][DEBUG   ][latte.get_instances_by_name] Found Func execlp @ 0x00101310
+[2026-05-24 21:27:51,654][DEBUG   ][latte.get_instances_by_name] Found Func execlp @ 0x001050c0
+[2026-05-24 21:27:51,657][DEBUG   ][latte._find_sym_trace_def] Iteration 1 going into getDef
+[2026-05-24 21:27:51,657][DEBUG   ][latte._find_sym_trace_def] Iteration 2 going into getDef
+[2026-05-24 21:27:51,657][DEBUG   ][latte._find_sym_trace_def] vndef is None
+[2026-05-24 21:27:51,657][DEBUG   ][latte._find_sym_trace_def] Found by symbol name local_78 at iteration 3
+[2026-05-24 21:27:51,713][DEBUG   ][latte.output_prompt] JSON saved sucessfully
+[2026-05-24 21:27:51,714][DEBUG   ][latte.output_prompt] JSON saved sucessfully
+[2026-05-24 21:27:51,716][DEBUG   ][latte.output_prompt] JSON saved sucessfully
+[2026-05-24 21:27:51,716][DEBUG   ][latte.output_prompt] JSON saved sucessfully
+[2026-05-24 21:27:51,717][DEBUG   ][latte.output_time] time saved sucessfully

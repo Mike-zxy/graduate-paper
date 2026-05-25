@@ -1,0 +1,3 @@
+[
+    "Source: [getenv, return value]; Sink: [execlp, 4]"
+]

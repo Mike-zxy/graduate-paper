@@ -1,0 +1,3 @@
+[
+    "Source: ['recv', 2]  \n['rand', 0]  \n['srand', 1]  \n['time', 0]  \n['__isoc99_swscanf', 2]  \n['__isoc99_sscanf', 2]; Sink: [printf, 1]\n[recv, 2]\n[connect, 2]\n[__isoc99_swscanf, 1]\n[__isoc99_sscanf, 1]"
+]

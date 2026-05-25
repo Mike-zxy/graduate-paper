@@ -1,0 +1,3 @@
+[
+  "Source: [recv, 1]; Sink: [[\"strcpy\", 1], [\"snprintf\", 2]]"
+]

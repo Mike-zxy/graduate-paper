@@ -1,0 +1,3 @@
+[
+    "Source: ['recv', 'external input']\n['rand', 'return value']\n['srand', 'external input']\n['time', 'return value']\n['inet_addr', 'external input']; Sink: [strchr, 1]\n[printf, 1]\n[wprintf, 1]\n[recv, 2]\n[__isoc99_swscanf, 1]\n[__isoc99_sscanf, 1]\n[connect, 2]\n[socket, 1]\n[inet_addr, 1]"
+]

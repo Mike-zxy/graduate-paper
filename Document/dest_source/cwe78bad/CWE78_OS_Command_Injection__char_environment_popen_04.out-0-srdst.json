@@ -1,0 +1,3 @@
+[
+    "Source: [getenv, return value]  \n[popen, parameter 1]; Sink: [popen, 1]"
+]

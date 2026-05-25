@@ -1,0 +1,3 @@
+[
+    "Source: ['fgets', 'char *str, int num, FILE *stream']; Sink: ['fgets', 1]"
+]

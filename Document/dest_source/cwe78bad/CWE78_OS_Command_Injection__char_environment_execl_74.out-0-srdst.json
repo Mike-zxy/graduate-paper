@@ -1,0 +1,3 @@
+[
+    "Source: ['getenv', 'return value']; Sink: [getenv, 0]  \n[strncat, 1]"
+]

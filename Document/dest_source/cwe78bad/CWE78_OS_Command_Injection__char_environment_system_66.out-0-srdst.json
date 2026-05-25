@@ -1,0 +1,3 @@
+[
+    "Source: [getenv, return value]  \n[strncat, external input corresponding parameters order]; Sink: ['strncat', 2]"
+]

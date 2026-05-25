@@ -1,0 +1,239 @@
+auto_define_undefined_functions: false
+console_log_level: INFO
+file_log_level: NOTSET
+find_better_arg_max_iterations: 50
+flag_main_as_source: false
+max_funccall_output_trace_depth: 1000
+output_decompiled_c_and_disassembly_html: false
+output_dest_src_directory: CWE_78_bad
+output_global_graph: false
+output_individual_paths_graph: true
+output_prompt_directory: CWE_78_bad
+output_relative_paths: true
+output_time_log: time_ana
+pre_render_graph_pdf: false
+pre_render_graph_png: false
+pre_render_graph_svg: false
+prior_tokens:
+  common_cmd_words:
+  - sh
+  - bash
+  - cmd
+  - powershell
+  - curl
+  - wget
+  - nc
+  - netcat
+  - telnet
+  - python
+  - perl
+  - php
+  - busybox
+  shell_separators:
+  - ;
+  - '|'
+  - '||'
+  - '&'
+  - '&&'
+  - '`'
+  - $(
+  - )
+  - <
+  - '>'
+  - 2>
+  - '>/'
+sink_functions:
+  __isoc99_sscanf:
+  - 0
+  - 1
+  __isoc99_swscanf:
+  - 0
+  - 1
+  '`popen`':
+  - 1
+  calloc:
+  - 0
+  - 1
+  connect:
+  - 0
+  - 1
+  execl:
+  - 2
+  - 3
+  - 4
+  execle:
+  - 3
+  execlp:
+  - 1
+  - 2
+  - 3
+  - 4
+  execlpe:
+  - 3
+  execv:
+  - 1
+  execve:
+  - 1
+  execvp:
+  - 1
+  execvpe:
+  - 1
+  fgets:
+  - 1
+  fprintf:
+  - 1
+  fwrite:
+  - 2
+  getenv:
+  - 0
+  - 1
+  gets:
+  - 0
+  malloc:
+  - 0
+  memcpy:
+  - 2
+  memset:
+  - 0
+  popen:
+  - 0
+  - 1
+  posix_spawn:
+  - 1
+  posix_spawnp:
+  - 1
+  printLine:
+  - 1
+  printf:
+  - 0
+  - 1
+  puts:
+  - 0
+  - 1
+  read:
+  - 0
+  realloc:
+  - 1
+  recv:
+  - 0
+  - 1
+  scanf:
+  - 0
+  snprintf:
+  - 1
+  - 2
+  socket:
+  - 0
+  - 1
+  sprintf:
+  - 0
+  strcat:
+  - 1
+  strchr:
+  - 0
+  strcpy:
+  - 1
+  strncat:
+  - 0
+  - 1
+  - 2
+  strncpy:
+  - 2
+  system:
+  - 0
+  - 1
+  vfprintf:
+  - 1
+  vprintf:
+  - 0
+  wprintf:
+  - 0
+  - 1
+source_functions:
+- read
+- fread
+- fgets
+- getline
+- getdelim
+- __isoc99_fscanf
+- fscanf
+- atoi
+- atol
+- atoll
+- strtol
+- strtoll
+- strtoul
+- strtoull
+- sscanf
+- __isoc99_sscanf
+- getenv
+source_global_symbols:
+- uri
+source_sink_parameter_signatures:
+  strcat:
+    destination_parameter_indexes:
+    - 0
+    source_parameter_indexes:
+    - 1
+  strcpy:
+    destination_parameter_indexes:
+    - 0
+    source_parameter_indexes:
+    - 1
+  strncpy:
+    destination_parameter_indexes:
+    - 0
+    source_parameter_indexes:
+    - 1
+  strstr:
+    destination_parameter_indexes:
+    - ret
+    source_parameter_indexes:
+    - 0
+    - 1
+split_global_graph_by_funcs: false
+supress_cannot_find_parent_function_warning: true
+taint_labels:
+  BIO_gets:
+  - 1
+  BIO_read:
+  - 1
+  __isoc99_fscanf:
+  - 2
+  __isoc99_sscanf:
+  - 1
+  atoi:
+  - 0
+  atol:
+  - 0
+  atoll:
+  - 0
+  fgets:
+  - 0
+  fread:
+  - 0
+  fscanf:
+  - 2
+  getdelim:
+  - 0
+  getenv:
+  - ret
+  getline:
+  - 0
+  read:
+  - 0
+  recv:
+  - 1
+  recvfrom:
+  - 1
+  sscanf:
+  - 1
+  strtol:
+  - 0
+  strtoll:
+  - 0
+  strtoul:
+  - 0
+  strtoull:
+  - 0
+trace_symbol_offset: false

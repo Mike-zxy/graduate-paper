@@ -1,0 +1,3 @@
+[
+    "Source: ['fgets', 'char *fgets(char *str, int n, FILE *stream)']; Sink: [execlp, 2]"
+]

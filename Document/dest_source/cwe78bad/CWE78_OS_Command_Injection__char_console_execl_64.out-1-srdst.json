@@ -1,0 +1,3 @@
+[
+    "Source: [gets, return value]  \n[scanf, return value]  \n[getchar, return value]  \n[fgetc, return value]  \n[fread, return value]  \n[read, return value]  \n[recv, return value]  \n[getenv, return value]  \n[rand, return value]  \n[random, return value]; Sink: [execl, 4]"
+]

@@ -1,0 +1,3 @@
+[
+    "Source: ['fgets', 'char *fgets(char *str, int n, FILE *stream)']\n['popen', 'FILE *popen(const char *command, const char *type)']; Sink: ['fgets', 1]"
+]

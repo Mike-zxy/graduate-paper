@@ -1,0 +1,3 @@
+[
+    "Source: [\"fgets\", \"return value\"]; Sink: [execlp, 3]"
+]

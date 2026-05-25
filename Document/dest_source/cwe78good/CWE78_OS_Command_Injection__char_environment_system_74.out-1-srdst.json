@@ -1,0 +1,3 @@
+[
+    "Source: ['getenv', 'return value']\n['system', 'local_18']; Sink: [system, 1]"
+]

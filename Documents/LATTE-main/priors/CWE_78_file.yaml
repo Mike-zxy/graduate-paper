@@ -1,0 +1,129 @@
+# CWE-78: OS Command Injection (File input focused)
+#
+# This file is intended to be merged into `config.yaml` as a "prior library".
+# Keys that LATTE doesn't use are safe to keep (they won't break `latte.py`).
+#
+# Coverage goals:
+# - Prefer command-execution sinks
+# - Prefer sources from file / env / argv (common in command building)
+# - Provide tokens useful for downstream fuzzing / validation
+
+# ---- Sinks: command execution / shell ----
+sink_functions:
+  system:
+  - 0
+  popen:
+  - 0
+  execl:
+  - 3
+  execlp:
+  - 3
+  execle:
+  - 3
+  execlpe:
+  - 3
+  execv:
+  - 1
+  execvp:
+  - 1
+  execve:
+  - 1
+  execvpe:
+  - 1
+  posix_spawn:
+  - 1
+  posix_spawnp:
+  - 1
+
+# ---- Sources / taint labels: file-centric + typical string parsers ----
+taint_labels:
+  # file / stdin reads
+  read:
+  - 0
+  fread:
+  - 0
+  fgets:
+  - 0
+  getline:
+  - 0
+  getdelim:
+  - 0
+  __isoc99_fscanf:
+  - 2
+  fscanf:
+  - 2
+  # parse helpers (treat as taint labels to bridge file->string->command)
+  atoi:
+  - 0
+  atol:
+  - 0
+  atoll:
+  - 0
+  strtol:
+  - 0
+  strtoll:
+  - 0
+  strtoul:
+  - 0
+  strtoull:
+  - 0
+  sscanf:
+  - 1
+  __isoc99_sscanf:
+  - 1
+  # environment / args (often used in command construction)
+  getenv:
+  - ret
+
+# Defines sources to be flagged if a sink-to-source path contains them.
+source_functions:
+- read
+- fread
+- fgets
+- getline
+- getdelim
+- __isoc99_fscanf
+- fscanf
+- atoi
+- atol
+- atoll
+- strtol
+- strtoll
+- strtoul
+- strtoull
+- sscanf
+- __isoc99_sscanf
+- getenv
+
+# ---- Extra prior metadata (optional; used by downstream validation) ----
+prior_tokens:
+  # common shell metacharacters / separators
+  shell_separators:
+  - ";"
+  - "|"
+  - "||"
+  - "&"
+  - "&&"
+  - "`"
+  - "$("
+  - ")"
+  - "<"
+  - ">"
+  - "2>"
+  - ">/"
+  # suspicious commands often found in PoCs
+  common_cmd_words:
+  - "sh"
+  - "bash"
+  - "cmd"
+  - "powershell"
+  - "curl"
+  - "wget"
+  - "nc"
+  - "netcat"
+  - "telnet"
+  - "python"
+  - "perl"
+  - "php"
+  - "busybox"
+

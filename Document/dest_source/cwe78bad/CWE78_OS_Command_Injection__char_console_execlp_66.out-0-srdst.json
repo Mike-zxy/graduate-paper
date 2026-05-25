@@ -1,0 +1,3 @@
+[
+    "Source: ['fgets', 'return value']\n['fgets', 'first parameter']\n['execlp', 'first parameter']\n['execlp', 'second parameter']\n['puts', 'first parameter']; Sink: [execlp, 2]"
+]
